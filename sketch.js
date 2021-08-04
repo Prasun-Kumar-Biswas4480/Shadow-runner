@@ -20,7 +20,7 @@ function setup() {
  
   ground = createSprite(width/2, displayHeight-160, width, 20);
   ground.velocityX = -3;
-  ground.shaprcolor = "black";
+  ground.shapecolor = "black";
 
   obstacleGroup = new Group();
 
